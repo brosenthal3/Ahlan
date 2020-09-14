@@ -4,7 +4,7 @@ const contactPage = () => {
     const intro = document.createElement('intro');
     intro.classList.add('intro', 'intro-menu');
     const title = document.createElement('h2');
-    title.textContent = 'Our Menu';
+    title.textContent = 'Contact Us';
     intro.appendChild(title);
     
     const main = document.createElement('main');
